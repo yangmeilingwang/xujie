@@ -29,6 +29,6 @@ $(function() {
 
 	});
 });
-(function() {
+$(function(){
 	new WOW().init();
-});
+});;
