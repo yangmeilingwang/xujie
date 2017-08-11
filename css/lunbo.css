@@ -161,12 +161,12 @@ img{
 
 }
 @media screen and  (max-width: 474px){
-   
+/* /* /* /*
     .swiper-slide div p{
         font-size: 0.2rem;
         transform: scale(0.4);
         margin-left: -20px;
-    }
+    }*/
     .swiper-slide div {
 				background: #FFFFFF;
 				text-align: center;
