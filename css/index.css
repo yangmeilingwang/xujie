@@ -41,6 +41,7 @@ a.border-red{
 }
 #nav div>ul>li.left span{
     color: #fff;
+     height: 23px;
      width: 18.64rem;
     font-size: 2.333rem;
     margin-left: 5px;
