@@ -284,7 +284,9 @@ a .hvr-ripple-out {
 		font-size: 44px;
 	}
 }
-
+.main-text .xiao3 a.hvr-bounce-to-bottom{
+	margin-top: 3px;
+}
 @media only screen and (max-width: 1380px) {
 	.carousel-inner li h2 {
 		position: absolute;
