@@ -1,3 +1,49 @@
+#search{
+    display: none;
+}
+#nav{
+    background-color: #191919;
+    padding: 10px 20px;
+    width: 100%;
+    /*box-sizing: border-box;*/
+}
+#nav div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#nav div>ul>li.left{
+    width: 23.3rem;
+}
+#nav div>ul>li.left b{
+    display: block;
+    font-weight: normal;
+    width: 50px;
+    height: 50px;
+    background: url("../images/logo-1.png")no-repeat center;
+    float: left;
+    vertical-align: middle;
+}
+#nav div>ul>li.left span{
+    color: #fff;
+    font-size: 2.333rem;
+    margin-left: 5px;
+    position: relative;
+    top:8px;
+}
+#nav div>ul>li.right ul li{
+    margin: 0 20px;
+    color: #e0e0e0;
+    font-size: 2.5rem;
+    position: relative;
+    top: 7px;
+}
+#nav div>ul>li.right ul li:last-child{
+    border: 1px solid #e60000;
+    color: #e60000;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
 
 #footer{
     border-top: 5px solid #e60000;
@@ -5,14 +51,25 @@
     color: #e0e0e0;
     font-size: 1.666rem;
     padding: 30px 0 10px;
- 
 }
 #footer>div{
     max-width: 1200px;
     margin: 0 auto;
 }
+#footer>div>div{
+    margin-bottom: 20px ;
+}
 #footer hr{
     border-color:#e60000;
+}
+#footer>div>p span{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url("../images/bottom_copyright.png") no-repeat center;
+    position: relative;
+    top: 4px;
+    left:12px;
 }
 #footer b{
     display: block;
@@ -21,6 +78,7 @@
     height: 28px;
     margin-right: 10px;
     float: left;
+
 }
 #footer>div>div>div{
     width: 50%;
@@ -28,6 +86,8 @@
 #footer>div>div p{
     margin: 20px 0;
     line-height: 28px;
+    font-size: 1.66rem;
+
 }
 #footer>div>div p:first-child b{
     background: url("../images/bottom-phone.png") no-repeat center;
@@ -103,12 +163,28 @@
     .code>div{
         margin-left: 30px;
     }
+    #footer>div>p span{
+        display: inline-block;
+        width: 1.33rem;
+        height: 1.33rem;
+        background: url("../images/bottom_copyright.png") no-repeat center;
+        background-size: 100%;
+        position: relative;
+        top: 4px;
+        left:8px;
+    }
 
 
 }
 @media screen and (max-width: 1080px) {
     #cooperation-md>ul>li{
         margin: 0 10px ;
+    }
+}
+@media screen and (max-width: 960px) {
+    #footer>div>div p{
+
+        font-size: 1.33rem;
     }
 }
 @media screen and (max-width: 768px){
@@ -121,7 +197,7 @@
     #nav div>ul>li.right ul li:first-child{
         border: 1px solid #e60000;
         color: #e60000;
-        padding: 5px 20px;
+        padding: 5px 10px;
         position: relative;
         top: 0;
         margin: 0;
@@ -231,6 +307,10 @@
     #cooperation-small{
         display: block;
     }
+    #footer>div>div p{
+
+        font-size: 2rem;
+    }
     #footer h4{
         display: none;
     }
@@ -245,10 +325,13 @@
     }
     #footer>div>div{
         width: 70%;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     .code>div{
         margin-left: 0;
+    }
+    .code>div>div{
+        margin: 15px 0;
     }
     .code>div:first-child{
         float: left;
@@ -261,19 +344,37 @@
 
         position: relative;
     }
-    #bottom-logo i{
+    #bottom-logo img{
         display: block;
-        transform: skew(-15deg);
-        font-size: 2.4rem;
+        margin: 0 auto;
     }
+    #bottom-logo img:nth-child(2){
+        margin-top: 20px;
+        max-width: 60%;
+    }
+    /*#bottom-logo i{*/
+        /*display: block;*/
+        /*transform: skew(-15deg);*/
+        /*font-size: 2.4rem;*/
+    /*}*/
     #bottom-logo span{
         font-size: 1.6rem;
         padding: 2px 10px;
         border: 1px solid #00a0e9;
         color: #00a0e9;
         position: absolute;
-        bottom: 0;
+        bottom: -5px;
         right: 0;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #footer>div>p{
+        font-size: 1.2rem;
+    }
+    #footer>div>div p{
+
+        font-size: 1.5rem;
     }
 }
 @media screen  and (max-width: 500px){
@@ -322,21 +423,35 @@
         margin: 0 10px ;
     }
     #footer>div>div{
-        width: 80%;
+        max-width: 100%;
         margin: 0 auto;
     }
     #bottom-logo i{
 
         font-size: 2rem;
     }
+    /*#bottom-logo img:nth-child(2){*/
+    /*max-width: 80%;*/
+    /*}*/
     #bottom-logo span{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0 5px;
         border: 1px solid #00a0e9;
         color: #00a0e9;
         position: absolute;
         bottom: 0;
         right: 0;
+    }
+    #footer>div>p{
+        font-size: 1rem;
+    }
+    #footer>div>div p{
+
+        font-size: 1rem;
+    }
+    #footer>div>div{
+        width: 80%;
+
     }
 }
 @media screen and (max-width: 400px) {
@@ -354,4 +469,5 @@
         font-size: 1rem;
 
     }
+
 }

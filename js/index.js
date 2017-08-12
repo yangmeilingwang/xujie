@@ -2,8 +2,8 @@ var swiper = new Swiper ('.swiper-container', {
         loop: true,
         pagination: '.swiper-pagination',
         paginationClickable: true,
-        //autoplay:3000,
-        //speed:300
+        autoplay:3000,
+        speed:300
 
 });
 var maxheight = 0;
@@ -70,8 +70,13 @@ $(function() {
     $(".submenu").hide();
     $(" .link").click(function(){
         $(".submenu").slideUp();
-        $(this).next().slideDown();
-        $(this).parent().addClass("open").siblings(".open").removeClass("open");
+        if(!$(this).parent().hasClass("open")){
+            $(this).next().slideDown();
+            $(this).parent().addClass("open").siblings(".open").removeClass("open");
+        }
+
+
+
     })
     new WOW().init();
 });

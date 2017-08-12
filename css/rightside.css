@@ -1,46 +1,65 @@
 .rightside {
 	position: fixed;
 	right: 0;
-	top: 60%;
-	margin-top: -150px;
-	width: 80px;
-	height: 237px;
-	background-color: #63000f;
+	top: 30%;
+	/*margin-top: -150px;*/
+
+	height: 207px;
+
 	z-index: 9999;
-	border-radius: 5px;
+
 }
 
 .rightside a {
-	float: left;
-	width: 100%;
-	height: 80px;
-	padding: 16px 0;
+	display: block;
+	/*float: left;*/
+	width: 70px;
+	height: 70px;
+	/*padding: 16px 0;*/
 	cursor: pointer;
+	border-radius: 5px;
+	margin: 1px 0;
+	background-color: #63000f;
+	position: relative;
+
 }
 
 .rightside a i {
-	float: left;
-	width: 100%;
-	height: 48px;
-	background-position: top center;
+	/*float: left;*/
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-position: center;
 	background-repeat: no-repeat;
+	/*margin: 0 auto;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
 }
 
 .rightside a.a1 {
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 }
 
 .rightside a.a1 i {
 	background-image: url(../images/phone.png);
+	background-size: 80%;
 }
 
 .rightside a.a2 i {
 	background-image: url(../images/code.png);
+	background-size: 80%;
 }
-
+.rightside a.a3 i {
+	background-image: url(../images/uparrow.png);
+	background-size: 80%;
+}
 .rightside a.a2 {
 	position: relative;
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 }
 
 .rightside a.a1 h3{
@@ -48,7 +67,7 @@
 }
 .rightside a.a1 div {
 	position: absolute;
-	right: 94px;
+	right: 84px;
 	top: 0;
 	background: #63000f;
 	text-align: center;
@@ -73,7 +92,7 @@
 }
 .rightside a.a2 div {
 	position: absolute;
-	right: 94px;
+	right: 84px;
 	top: -30px;
 	background: #63000f;
 	text-align: center;
@@ -107,9 +126,7 @@
 .rightside a.a1:hover div{
 	display: block;
 }
-.rightside a.a3 i {
-	background-image: url(../images/uparrow.png);
-}
+
 
 .rightside a span {
 	float: left;
