@@ -25,14 +25,14 @@
 				position: absolute;
 				top: 30%;
 				color: white;
-				left: 50%;
+				left: 48%;
 				font-size: 80px;
-				transform: translateX(-50%);
+				transform: translateX(-47%);
 			}
 			
 			.carousel-inner li p {
 				position: absolute;
-				left: 31%;
+				left: 39%;
 				/*right:12%;*/
 				top: 43%;
 				font-size: 48px;
@@ -61,22 +61,29 @@
 				border-radius: 50px;
 				margin-top: 90px;
 			}
-			
+			.carousel-inner li h2{
+				font-family: SourceHanSansCN-Medium_2;
+			}
+			.carousel-inner li p{
+				font-family: SourceHanSansCN-Normal_2;
+			}
 			@media only screen and (max-width: 1776px) {
 				.carousel-inner li h2 {
 					position: absolute;
-					top: 29%;
+					top: 31%;
 					color: white;
 					left: 48%;
 					font-size: 74px;
 					transform: translateX(-47%);
+					
 				}
 				.carousel-inner li p {
 					position: absolute;
-					left: 28%;
-					top: 43%;
+					left: 34%;
+					top: 44%;
 					font-size: 46px;
 					color: #ffffff;
+					
 				}
 				.carousel-inner li a {
 					position: absolute;
@@ -97,9 +104,9 @@
 					position: absolute;
 					top: 29%;
 					color: white;
-					left: 48%;
+					left: 47%;
 					font-size: 70px;
-					transform: translateX(-50%);
+					transform: translateX(-46%);
 				}
 				.carousel-inner li p {
 					position: absolute;
@@ -125,7 +132,7 @@
 			@media only screen and (max-width: 1500px) {
 				.carousel-inner li h2 {
 					position: absolute;
-					top: 27%;
+					top: 31%;
 					color: white;
 					left: 48%;
 					font-size: 62px;
@@ -133,8 +140,8 @@
 				}
 				.carousel-inner li p {
 					position: absolute;
-					left: 27%;
-					top: 43%;
+					left: 35%;
+					top: 44%;
 					font-size: 40px;
 					color: #ffffff;
 				}
@@ -368,7 +375,7 @@
 					top: 22%;
 					color: white;
 					left: 48%;
-					font-size: 19px;
+					font-size: 18px;
 					transform: translateX(-50%);
 				}
 				.carousel-inner li p {
@@ -456,19 +463,36 @@
 				margin-top: 60px;
 			}
 			
-			.main h3 {
-				position: relative;
-				color: #777777;
-				font-size: 48px;
-				line-height: 55px;
+			@media screen and (max-width: 768px) {
+				.main h3 i {
+					display: block;
+					width: 20%;
+					border: 3px solid #e60000;
+					margin: 10px auto;
+				}
+				.main h3 {
+					color: #000;
+					font-size: 2.2rem;
+					font-weight: normal;
+					text-align: center;
+				}
 			}
 			
-			h3 i {
-				border-bottom: 4px solid #e60000;
-				position: absolute;
-				width: 100px;
-				left: 0;
-				top: 55px;
+			@media only screen and (min-width: 767px) {
+				h3 i {
+					border-bottom: 5px solid #e60000;
+					position: absolute;
+					width: 100px;
+					left: 0;
+					top: 55px;
+				}
+				.main h3 {
+					position: relative;
+					color: #777777;
+					font-family: arial;
+					font-size: 48px;
+					line-height: 55px;
+				}
 			}
 			
 			.main p {
@@ -519,11 +543,11 @@
 			
 			.container .po {
 				margin-top: 224px;
-				max-width: 1164px;
+				max-width: 1230px;
 			}
 			
 			.person p {
-				font-size: 22px;
+				font-size: 20px;
 				margin-top: 25px;
 				font-family: SourceHanSansCN-Normal_2;
 			}
@@ -795,20 +819,21 @@
 			}*/
 			
 			@media only screen and (max-width: 767px) {
-				.main h3 {
-					position: relative;
-					color: #777777;
-					font-size: 36px;
-					line-height: 55px;
-				}
 				.main p {
 					font-size: 20px;
 					margin-top: 60px;
 				}
 			}
 			
-			@media (min-width: 1200px){ 
-				.container {
-				width: 1200px;
+			@media (min-width: 1200px) {
+				.person {
+					width: 1261px;
+				}
 			}
+			
+			@media screen and (max-width: 767px) .main h3 {
+				color: #000;
+				font-size: 2.2rem;
+				font-weight: normal;
+				text-align: center;
 			}

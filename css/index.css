@@ -39,14 +39,19 @@ a.border-red{
     float: left;
     vertical-align: middle;
 }
+#nav div>ul>li.left{
+	width: 18.64rem;
+}
 #nav div>ul>li.left span{
     color: #fff;
      height: 23px;
      width: 18.64rem;
     font-size: 2.333rem;
+    width: 18.64rem;
     margin-left: 5px;
     position: relative;
     top:8px;
+   
 }
 #nav div>ul>li.right ul li{
     margin: 0 20px;
@@ -457,6 +462,9 @@ a.border-red{
     }
 }
 @media screen and (max-width: 768px){
+    #nav div>ul>li.left{
+	width: 16.64rem;
+}
     #nav div>ul>li.right ul li:nth-child(2){
         display: none;
     }
