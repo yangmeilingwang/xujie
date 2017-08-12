@@ -288,7 +288,7 @@ a .hvr-ripple-out {
 @media only screen and (max-width: 1380px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 23%;
+		top: 26%;
 		color: white;
 		left: 48%;
 		font-size: 68px;
@@ -297,7 +297,7 @@ a .hvr-ripple-out {
 	.carousel-inner li p {
 		position: absolute;
 		left: 24%;
-		top: 40%;
+		top: 42%;
 		font-size: 42px;
 		color: #ffffff;
 	}
