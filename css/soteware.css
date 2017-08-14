@@ -21,6 +21,51 @@
 	display: block;
 }
 
+@font-face {
+	font-family: "SourceHanSansCN-Medium_2";
+	src: url("../font/SourceHanSansCN-Medium_2.otf");
+}
+
+
+.carousel-inner li h2 {
+	font-family: "SourceHanSansCN-Medium_2";
+}
+.main-text{
+	font-family: "SourceHanSansCN-Medium_2";
+}
+
+@font-face {
+	font-family: "SourceHanSansCN-Normal_2";
+	src: url("../font/SourceHanSansCN-Normal_2.otf");
+}
+
+.carousel-inner li p {
+	font-family: "SourceHanSansCN-Normal_2";
+}
+@font-face {
+	font-family: "SourceHanSansCN-Bold_2";
+	src: url("../font/SourceHanSansCN-Bold_2.otf");
+}
+.carousel-inner li a {
+    font-family: "SourceHanSansCN-Normal_2";
+}
+.main-text .img{
+	font-family: "SourceHanSansCN-Bold_2";
+}
+@font-face {
+	font-family: "SourceHanSansCN-Normal_2";
+	src: url("../font/SourceHanSansCN-Normal_2.otf");
+}
+.carousel-inner li a{
+	font-family: "SourceHanSansCN-Normal_2";
+}
+@font-face {
+	font-family: "SourceHanSansCN-Light_2";
+	src: url("../font/SourceHanSansCN-Light_2.otf");
+}
+.main h3{
+	font-family: "SourceHanSansCN-Light_2";
+}
 .carousel-inner li h2 {
 	position: absolute;
 	top: 30%;
@@ -72,7 +117,6 @@
 .main h3 {
 	position: relative;
 	color: #777777;
-	font-family: arial;
 	font-size: 48px;
 	line-height: 55px;
 }
@@ -284,9 +328,11 @@ a .hvr-ripple-out {
 		font-size: 44px;
 	}
 }
-.main-text .xiao3 a.hvr-bounce-to-bottom{
-	margin-top: 3px;
+
+.main-text .xiao3 a.hvr-bounce-to-bottom {
+	margin-top: 2px;
 }
+
 @media only screen and (max-width: 1380px) {
 	.carousel-inner li h2 {
 		position: absolute;
@@ -691,11 +737,11 @@ a .hvr-ripple-out {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.main-music img{
+	.main-music img {
 		margin-bottom: 5px;
 		margin-top: 30px;
 	}
-	.main-music{
+	.main-music {
 		margin-top: 0;
 	}
 }
@@ -717,7 +763,8 @@ a .hvr-ripple-out {
 		color: #ffffff;
 	}
 }
-.img{
+
+.img {
 	width: 400px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
