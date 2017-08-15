@@ -26,11 +26,11 @@
 	src: url("../font/SourceHanSansCN-Medium_2.otf");
 }
 
-
 .carousel-inner li h2 {
 	font-family: "SourceHanSansCN-Medium_2";
 }
-.main-text{
+
+.main-text {
 	font-family: "SourceHanSansCN-Medium_2";
 }
 
@@ -42,30 +42,42 @@
 .carousel-inner li p {
 	font-family: "SourceHanSansCN-Normal_2";
 }
+
 @font-face {
 	font-family: "SourceHanSansCN-Bold_2";
 	src: url("../font/SourceHanSansCN-Bold_2.otf");
 }
+
 .carousel-inner li a {
-    font-family: "SourceHanSansCN-Normal_2";
+	font-family: "SourceHanSansCN-Normal_2";
 }
-.main-text .img{
+
+.main-text .img {
 	font-family: "SourceHanSansCN-Bold_2";
 }
+
 @font-face {
 	font-family: "SourceHanSansCN-Normal_2";
 	src: url("../font/SourceHanSansCN-Normal_2.otf");
 }
-.carousel-inner li a{
+@font-face {
+	font-family: "SourceHanSansCN-Regular_2";
+	src: url("../font/SourceHanSansCN-Regular_2.otf");
+}
+
+.carousel-inner li a {
 	font-family: "SourceHanSansCN-Normal_2";
 }
+
 @font-face {
 	font-family: "SourceHanSansCN-Light_2";
 	src: url("../font/SourceHanSansCN-Light_2.otf");
 }
-.main h3{
+
+.main h3 {
 	font-family: "SourceHanSansCN-Light_2";
 }
+
 .carousel-inner li h2 {
 	position: absolute;
 	top: 30%;
@@ -97,7 +109,7 @@
 	font-size: 48px;
 }
 
-.main-text .img a {
+.img a.hvr-ripple-out {
 	color: white;
 	background: #e60000;
 	padding: 1.0rem 5rem;
@@ -105,6 +117,7 @@
 	font-size: 40px;
 	border-radius: 50px;
 	margin-top: 90px;
+	font-family: "SourceHanSansCN-Bold_2";
 }
 
 
@@ -123,7 +136,7 @@
 
 .main-music {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .main-music p {
@@ -247,10 +260,10 @@ a .hvr-ripple-out {
 		min-height: 717px;
 	}
 	.main-text .xiao2 a.hvr-bounce-to-bottom {
-		height: 441px;
+		height: 447px;
 	}
 	.main-text .xiao3 a.hvr-bounce-to-bottom {
-		height: 434px;
+		height: 446px;
 	}
 	.main-text .xiao1 a.hvr-bounce-to-bottom {
 		height: 450px;
@@ -262,7 +275,7 @@ a .hvr-ripple-out {
 		min-height: 606px;
 	}
 	.main-text .xiao2 a.hvr-bounce-to-bottom {
-		height: 332px;
+		height: 329px;
 	}
 	.main-text .xiao3 a.hvr-bounce-to-bottom {
 		height: 328px;
@@ -665,6 +678,7 @@ a .hvr-ripple-out {
 		width: 20%;
 		border: 3px solid #e60000;
 		margin: 0 auto;
+		margin-top: 10px;
 	}
 	.main h3 {
 		color: #000;
@@ -681,6 +695,7 @@ a .hvr-ripple-out {
 		width: 97px;
 		left: 0;
 		top: 55px;
+		
 	}
 }
 
@@ -707,6 +722,7 @@ a .hvr-ripple-out {
 	#footer {
 		margin-top: 48px;
 	}
+	
 }
 
 @media only screen and (min-width: 767px) {
@@ -765,5 +781,28 @@ a .hvr-ripple-out {
 }
 
 .img {
-	margin: 0 auto;
+	text-align: center;
+}
+
+@media only screen and (max-width: 414px) {
+	.img a.hvr-ripple-out {
+		color: white;
+		background: #e60000;
+		padding: 1.0rem 4rem;
+		border-radius: 50px;
+		text-decoration: none;
+		font-size: 36px;
+		margin-top: 35px;
+
+	}
+}
+.main-music p{
+	font-family: "SourceHanSansCN-Medium_2";
+	/*font-size: 20px;*/
+}
+@media only screen and (max-width: 767px) {
+	.main h3{
+		font-family: "SourceHanSansCN-Normal_2";
+		font-size:36px ;
+	}
 }
