@@ -676,9 +676,9 @@ a .hvr-ripple-out {
 
 @media only screen and (min-width: 767px) {
 	h3 i {
-		border-bottom: 5px solid #e60000;
+		border-bottom: 7px solid #e60000;
 		position: absolute;
-		width: 100px;
+		width: 97px;
 		left: 0;
 		top: 55px;
 	}
