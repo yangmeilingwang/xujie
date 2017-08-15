@@ -1,4 +1,22 @@
-
+@font-face {
+    font-family: "SourceHanSansCN-Bold_2";
+    src: url("../font/SourceHanSansCN-Bold_2.otf");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Normal_2";
+    src: url("../font/SourceHanSansCN-Normal_2.otf");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Medium_2";
+    src: url("../font/SourceHanSansCN-Medium_2.otf");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Light_2";
+    src: url("../font/SourceHanSansCN-Light_2.otf");
+}
+body{
+    font-family: "SourceHanSansCN-Normal_2";
+}
 a.border-red{
     /*width: 56%;*/
     font-size: 3rem;
@@ -7,64 +25,9 @@ a.border-red{
     border: none;
     color: #fff;
     padding: 10px 40px;
-
+    margin: 40px 0;
+    font-family: "SourceHanSansCN-Medium_2";
 }
-
-#search{
-   display: none;
-}
-
-.height{
-
-}
-
-
-/*nav*/
-#nav{
-    background-color: #191919;
-    padding: 10px 20px;
-    width: 100%;
-    /*box-sizing: border-box;*/
-}
-#nav div{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#nav div>ul>li.left{
-    width: 23.3rem;
-}
-#nav div>ul>li.left b{
-    display: block;
-    font-weight: normal;
-    width: 50px;
-    height: 50px;
-    background: url("../images/logo-1.png")no-repeat center;
-    float: left;
-    vertical-align: middle;
-}
-#nav div>ul>li.left span{
-    color: #fff;
-    font-size: 2.333rem;
-    margin-left: 5px;
-    position: relative;
-    top:8px;
-}
-#nav div>ul>li.right ul li{
-    margin: 0 20px;
-    color: #e0e0e0;
-    font-size: 2.5rem;
-    position: relative;
-    top: 7px;
-}
-#nav div>ul>li.right ul li:last-child{
-    border: 1px solid #e60000;
-    color: #e60000;
-    padding: 5px;
-    position: relative;
-    top: 0;
-}
-
-
 /*banner*/
 .swiper-container{
     width: 100%;
@@ -93,10 +56,11 @@ a.border-red{
 .swiper-slide div h2{
     font-size: 5rem;
     font-weight: bold;
+    font-family: "SourceHanSansCN-Bold_2";
 }
 .swiper-slide div p{
     font-size: 2.5rem;
-    margin: 30px 0;
+    margin: 30px 10px;
 }
 .swiper-slide div a{
 
@@ -123,7 +87,7 @@ a.border-red{
 
 /*section model*/
 #model1{
-    background: url("../images/bg1.png") no-repeat 50% -9%  ;
+    background: url("../images/bg1.png") no-repeat 50% -11%  ;
     /*background-size: cover;*/
     /*min-height: 1000px;*/
 }
@@ -149,6 +113,7 @@ a.border-red{
     color: #777;
     font-size: 4rem;
     font-weight: normal;
+    font-family: "SourceHanSansCN-Light_2";
 }
 .title .hr {
     display: block;
@@ -156,7 +121,23 @@ a.border-red{
     border: 3px solid #e60000;
     margin: 10px 0;
 }
+#model1 .model-list div p {
+    line-height: 3rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:6 ;
+    overflow: hidden;
+    height: 216px;
+}
+#model2 .model-list div p {
+    line-height: 3rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:11;
+    overflow: hidden;
 
+    height: 396px;
+}
 .model-list>div:nth-child(2) a.border-red{
 
     background-color: transparent;
@@ -176,6 +157,7 @@ a.border-red{
     color: #b8b8b8;
     font-size: 3rem;
     margin: 20px auto;
+    font-family: "SourceHanSansCN-Medium_2";
 }
 .model-list div p{
     font-size: 2rem;
@@ -197,8 +179,10 @@ a.border-red{
     padding: 10px;
 }
 #model2 .model-list div p{
-    margin: 25px ;
+    padding:25px ;
+    padding-top: 0;
     /*margin-bottom: 20px;*/
+    text-align: justify;
 }
 #model2 .model-list div:nth-child(2){
     margin: 50px 2%;
@@ -207,29 +191,37 @@ a.border-red{
 #cooperationCase-small{
     display: none;
 }
-#cooperationCase-md>ul{
-    width: 100%;
-    margin: 10px auto;
-    border-bottom: 1px solid #434343;
+#cooperationCase-md .aa{
+    max-width: 1200px;
+    height: 61px;
+    overflow: hidden;
+    padding: 0;
 }
-#cooperationCase-md>ul>li{
+#cooperationCase-md>div>ul{
+    width:133.28%;
+    margin: 10px auto;
+    height: 50px;
+    border-bottom: 1px solid #434343;
+
+    /*position: relative;*/
+}
+#cooperationCase-md>div>ul>li{
     width: 12.5%;
     float: left;
+
     text-align: center;
     padding: 10px 0;
-
-
-}
-#cooperationCase-md>ul>li a{
     color: #161616;
-}
-#cooperationCase-md>ul>li.active{
-    background-color: #e60000;
+    font-size: 2rem;
+
 
 }
-#cooperationCase-md>ul>li.active a{
+
+#cooperationCase-md>div>ul>li.active{
+    background-color: #e60000;
     color: #fff;
 }
+
 #cooperationCase-md>div{
     padding: 30px 0;
 }
@@ -256,6 +248,8 @@ a.border-red{
 .cooperationCase h4{
     font-size: 2.5rem;
     margin: 20px 0;
+    font-family: "SourceHanSansCN-Medium_2";
+
 }
 .cooperationCase ul li{
 
@@ -403,8 +397,23 @@ a.border-red{
         color: #161212;
 
     }
+    #model1 .model-list div p {
+        line-height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:6 ;
+        overflow: hidden;
+        height: 144px;
+    }
+    #model2 .model-list div p {
+        line-height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:16;
+        overflow: hidden;
 
-
+        height: 384px;
+    }
 
 
 }
@@ -415,49 +424,48 @@ a.border-red{
     a.border-red{
         font-size: 2rem;
     }
-}
+    #cooperationCase-md>div>ul>li{
+        width: 12.5%;
+        float: left;
+        text-align: center;
+        padding: 10px 0;
+        color: #161616;
+        font-size: 1.5rem;
 
-@media screen and (max-width: 768px){
-    #nav div>ul>li.right ul li:nth-child(2){
-        display: none;
+
     }
-    #nav{
-        background: #3a3939;
+    #cooperationCase-md .aa{
+        max-width: 1200px;
+        height: 61px;
+        overflow: hidden;
+        padding: 0;
     }
-    #nav div>ul>li.right ul li:first-child{
-        border: 1px solid #e60000;
-        color: #e60000;
-        padding: 5px 10px;
-        position: relative;
-        top: 0;
-        margin: 0;
-    }
-    #search{
-        display: block;
-        position: relative;
-        background-color: #fff;
-        width: 100%;
-        padding: 0 10px;
-    }
-    #search input{
-        padding-left: 50px;
-        background: url("../images/logo-1-small.png")no-repeat 10px center;
-        height: 60px;
-        border: 1px solid #ddd;
-        width: 100%;
-        margin: 10px 0;
-        border-radius: 5px;
-        font-size:2.5rem ;
-    }
-    #search span{
-        display: block;
-        width: 44px;
+    #cooperationCase-md>div>ul{
+        width:133.28%;
+        margin: 10px auto;
         height: 44px;
-        background: url("../images/search-icon.png") no-repeat center;
-        position: absolute;
-        top: 18px;
-        right: 32px;
+        border-bottom: 1px solid #434343;
+
+        /*position: relative;*/
     }
+
+}
+@media screen and (max-width: 960px) {
+    #model1 .model-list div p {
+        line-height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:8;
+        overflow: hidden;
+
+        height: 192px;
+    }
+}
+@media screen and (max-width: 768px){
+    /*a.border-red{*/
+
+        /*margin:  0;*/
+    /*}*/
     .swiper-pagination-bullet {
         width: 15px;
         height: 15px;
@@ -465,9 +473,9 @@ a.border-red{
         border-radius: 100%;
 
     }
-    .swiper-slide img{
-        height: 893px;
-    }
+    /*.swiper-slide img{*/
+        /*height: 893px;*/
+    /*}*/
 
     .swiper-slide img:nth-child(1){
         display: none;
@@ -504,6 +512,26 @@ a.border-red{
     #model1,#model2,#model3{
         background: none;
     }
+
+    #model1 .model-list div p {
+        line-height: 3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:7;
+        overflow: hidden;
+
+        height:252px;
+    }
+    #model2 .model-list div p {
+        line-height: 3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:9;
+        overflow: hidden;
+
+        height: 324px;
+    }
+
     .title{
         position: relative;
         text-align: center;
@@ -557,8 +585,16 @@ a.border-red{
         box-shadow:  none;
         -moz-box-shadow:  none;
         -webkit-box-shadow:  none;
+        /*margin: 0 2%;*/
     }
+    #model2 .model-list div:nth-child(2) {
+        margin: 0px 2%;
+    }
+    #model2 .model-list div p {
 
+        padding:0;
+
+    }
     #cooperationCase-md{
         display: none;
     }
@@ -631,6 +667,19 @@ a.border-red{
     .model-list div p {
         font-size: 1.5rem;
 
+    }
+    #model2 .model-list div p {
+        line-height: 2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:9;
+        overflow: hidden;
+
+        height: 216px;
+    }
+
+    #model2 .model-list div img{
+        max-width: 50%;
     }
     a.border-red{
         font-size: 2rem;
