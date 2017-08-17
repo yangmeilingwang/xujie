@@ -11,7 +11,10 @@ $(function() {
 		prevButton: '.swiper-button-prev',
 		nextButton: '.swiper-button-next',
 		breakpoints: {
-			768: {
+			1280:{
+				slidesPerView: 3
+			},
+			992: {
 				slidesPerView: 2
 			},
 			480:{

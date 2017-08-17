@@ -94,10 +94,12 @@ h1 a {
 	background: url("../images/icon8.png") no-repeat center;
 	background-size:80%;
 }
+
  .accordion {
  	width: 100%;
  	max-width: 768px;
- 	margin: 30px auto 20px;
+ 	padding-bottom: 20px;
+	 margin: 0 auto;
  	/*background: #FFF;*/
  	-webkit-border-radius: 4px;
  	-moz-border-radius: 4px;
@@ -150,7 +152,8 @@ h1 a {
 }
 
 .accordion li.open .link {
-	color: #b63b4d;
+	color: #fff;
+	font-size: 2.66rem;
 }
 
 .accordion li.open i {
@@ -184,6 +187,7 @@ h1 a {
  .submenu>div p{
 	 padding: 20px 0;
 	 color: #888;
+	 font-size: 2.33rem;
  }
 
 
@@ -193,6 +197,14 @@ h1 a {
 		 font-size: 2rem;
 		 font-weight: normal;
 
+	 }
+	 .submenu>div p{
+
+		 font-size: 1.833rem;
+	 }
+	 .accordion li.open .link {
+		 color: #fff;
+		 font-size: 2.166rem;
 	 }
 	 .accordion li i.fa-chevron-down {
 		 right: 1.5rem;
@@ -213,6 +225,14 @@ h1 a {
 		font-size: 1.5rem;
 
 
+	}
+	.submenu>div p{
+
+		font-size: 1.5rem;
+	}
+	.accordion li.open .link {
+		color: #fff;
+		font-size: 1.666rem;
 	}
 	.icon{
 		display: inline-block;
@@ -269,6 +289,14 @@ h1 a {
 @media screen and (max-width: 400px) {
 	.accordion .link {
 		font-size: 1.2rem;
+	}
+	.submenu>div p{
+
+		font-size: 1rem;
+	}
+	.accordion li.open .link {
+
+		font-size: 1.3666rem;
 	}
 	.accordion li i {
 		top: 1rem;

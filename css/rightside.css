@@ -61,18 +61,22 @@
 	position: relative;
 	/*border-bottom: 1px solid #ddd;*/
 }
+.rightside a.a1 h4{
 
+	font-size: 2.167rem;
+}
 .rightside a.a1 h3{
 	margin: 10px auto;
+	font-size: 2.42rem;
 }
 .rightside a.a1 div {
 	position: absolute;
 	right: 84px;
-	top: 0;
+	top: -25px;
 	background: #63000f;
 	text-align: center;
 	color: #fff;
-	width: 120px;
+	width: 260px;
 	display: none;
 	padding: 10px;
 }
@@ -80,7 +84,7 @@
 	font-weight: normal;
 	display: block;
 	position: absolute;
-	top: 15px;
+	top: 50px;
 	right: -10px;
 	/*background-color: #63000f;*/
 	width:0;
@@ -93,24 +97,30 @@
 .rightside a.a2 div {
 	position: absolute;
 	right: 84px;
-	top: -30px;
+	top: -100px;
 	background: #63000f;
 	text-align: center;
 
 	color: #fff;
-	width: 120px;
+	width: 260px;
 	display: none;
 	padding: 10px;
 }
 .rightside a.a2 div img{
-	width: 90%;
-	margin:0 auto;
+	width: 80%;
+
+	margin: 10px;
+}
+.rightside a.a2 div p{
+
+	margin-bottom: 10px;
+	font-size: 1.5rem;
 }
 .rightside a.a2 div b{
 	font-weight: normal;
 	display: block;
 	position: absolute;
-	top: 60px;
+	top: 125px;
 	right: -10px;
 	/*background-color: #63000f;*/
 	width:0;
@@ -134,54 +144,50 @@
 	text-align: center;
 	color: #009fe5;
 }
+@media screen and  (max-width: 1200px){
+	.rightside a {
+		width: 43.5px;
+		height: 43.5px;
+	}
+	.rightside a i {
+		width: 30px;
+		height: 30px;
+	}
+	.rightside a.a1 h3 {
 
-/*@media screen and (max-width: 767px) {*/
-	/*.rightside {*/
-		/*top: auto;*/
-		/*left: 0;*/
-		/*bottom: 0;*/
-		/*right: 0;*/
-		/*width: 100%;*/
-		/*height: 70px;*/
-	/*}*/
-	/*.rightside a {*/
-		/*width: 50%;*/
-		/*height: 70px;*/
-		/*padding: 6px 0 4px;*/
-	/*}*/
-	/*.rightside a.a3 {*/
-		/*display: none;*/
-	/*}*/
-	/*.rightside a i {*/
-		/*height: 44px;*/
-	/*}*/
-	/*.rightside a.a1,*/
-	/*.rightside a.a2 {*/
-		/*border-right: 1px solid #ddd;*/
-	/*}*/
-	/*.rightside a.a2 p {*/
-		/*top: -70px;*/
-		/*left: 0;*/
-		/*width: 100%;*/
-		/*height: 70px;*/
-		/*line-height: 70px;*/
-	/*}*/
-/*}*/
+		font-size: 1.5rem;
+	}
+	.rightside a.a1 h4 {
+		font-size: 1.3rem;
+	}
+	.rightside a.a1 div {
 
-/*.rightside span img {*/
-	/*position: absolute;*/
-	/*top: 0;*/
-	/*left: -79px;*/
-	/*display: none;*/
-/*}*/
-/*.rightside .a2:hover img{*/
-	/*display: block;*/
-/*}*/
-/*@media only screen and (max-width: 414px) {*/
-	/*.rightside span img {*/
-	/*position: absolute;*/
-	/*top: -40px;*/
-	/*left: -60px;*/
-	/*display: none;*/
-/*}*/
-/*}*/
+		right: 60px;
+		top: -20px;
+		width: 150px;
+
+	}
+	.rightside a.a1 div b {
+
+		top: 33px;
+		right: -10px;
+
+	}
+	.rightside a.a2 div p {
+
+		font-size: 1rem;
+	}
+	.rightside a.a2 div {
+
+		right: 60px;
+		top: -65px;
+
+		width: 150px;
+
+	}
+	.rightside a.a2 div b {
+
+		top: 80px;
+
+	}
+}

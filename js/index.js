@@ -17,7 +17,7 @@ var swiper = new Swiper ('.swiper-container', {
 
 
 var mdi=$("#cooperation-md>ul li").index();
-var mdt=setInterval("mdtab()",3000);
+//var mdt=setInterval("mdtab()",3000);
 function mdtab(){
     mdi++;
     if(mdi>2){
@@ -90,11 +90,15 @@ console.log( $("#accordion li:eq(0).link"))
 
     var i=0;
     var t = setInterval(function () { i++; move();},3000);
-    $("#cooperationCase-md>div>ul").on("click","li",function(){
-
-        var i = $(this).index();//点击的li在所有li中的序号
-        $("#cooperationCase-md>div>ul>li").eq(i).addClass("active").siblings(".active").removeClass("active");
-        $("#cooperationCase-md>div>div").eq(i).addClass("active").siblings(".active").removeClass("active");
+    $("#cooperationCase-md>div>ul").on("click","a",function(e){
+        //var i=$(this).index();
+        //var id = e.target().attr("href");
+        e.preventDefault();
+        var id = $(this).attr("href");//点击的li在所有li中的序号
+        console.log(id);
+        //console.log(i);
+        $(this).parent().addClass("active").siblings(".active").removeClass("active");
+        $(id).addClass("active").siblings(".active").removeClass("active");
         clearInterval(t);
         //setInterval(function(){i++;move();},3000);
 
@@ -106,7 +110,7 @@ console.log( $("#accordion li:eq(0).link"))
         var clone = $("#cooperationCase-md>div>ul>li").first().clone();//克隆第一张图片
         $("#cooperationCase-md>div>ul").append(clone);//复制到列表最后
         $("#cooperationCase-md>div>ul>li").first().remove();
-        console.log(i);
+        //console.log(i);
         if(i>=8){
             i=0;
         }

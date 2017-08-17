@@ -3,15 +3,67 @@
 	padding: 0;
 }
 
+.wg {
+	width: 62.5%;
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+}
+
+/*@media only screen and (min-width: 769px) and (max-width: 1030px) {
+	.swiper-slide{
+		width: 50%;
+		}
+}*/
+@media only screen and (max-width: 1636px) {
+	.anniu button:nth-child(2){
+	margin-top: 5px;
+	margin-left: 30%;
+	}
+	.anniu button:nth-child(1){
+		margin-left: 37%;
+		}
+}
+@media only screen and (max-width: 414px) {
+	.anniu button:nth-child(2){
+		margin-left: 22%;
+		}
+		.anniu button:nth-child(1){
+		margin-left: 30%;
+		}
+}
+@media only screen and (max-width: 320px) {
+	.anniu button:nth-child(2){
+		margin-left: 20%;
+		}
+		.anniu button:nth-child(1){
+		margin-left: 30%;
+		}
+}
+		
+@media only screen and (min-width: 1201px) and (max-width: 1413px) {
+	.swiper-slide div p:nth-child(2){
+		font-size: 25px;
+		}
+		.swiper-slide div p:nth-child(3){
+			font-size: 20px;
+		}
+		
+}
+
 @media screen and (max-width: 768px) {
 	html {
 		font-size: 12px;
 	}
 }
+
 @media only screen and (min-width: 415px) and (max-width: 768px) {
-	.bga{
-	background: #fff;
-	height: 20px;
+	.bga {
+		background: #fff;
+		height: 20px;
 	}
 }
 
@@ -110,20 +162,25 @@
 .main1 div p:nth-child(2) {
 	font-family: "SourceHanSansCN-Normal_2";
 }
+
 .main1 div p:nth-child(3) {
 	font-family: "SourceHanSansCN-Light_2";
 	color: #4a4a4a;
 }
+
 @font-face {
 	font-family: "SourceHanSansCN-Bold_2";
 	src: url("../font/SourceHanSansCN-Bold_2.otf");
 }
-.anniu button{
+
+.anniu button {
 	font-family: "SourceHanSansCN-Bold_2";
-	}
-	.carousel-inner li a {
-    font-family: "SourceHanSansCN-Normal_2";
 }
+
+.carousel-inner li a {
+	font-family: "SourceHanSansCN-Normal_2";
+}
+
 @media only screen and (max-width: 1776px) {
 	.carousel-inner li h2 {
 		position: absolute;
@@ -153,12 +210,14 @@
 		font-size: 46px;
 	}
 }
+
 @media only screen and (max-width: 767px) {
-	.main h3{
+	.main h3 {
 		font-family: "SourceHanSansCN-Normal_2";
-		font-size:36px;
+		font-size: 36px;
 	}
 }
+
 @media only screen and (max-width: 1600px) {
 	.carousel-inner li h2 {
 		position: absolute;
@@ -495,14 +554,14 @@
 		top: 22%;
 		color: white;
 		left: 48%;
-		font-size: 14px;
+		font-size: 15px;
 		transform: translateX(-50%);
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 28%;
+		left: 27%;
 		top: 39%;
-		font-size: 13px;
+		font-size: 15px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
@@ -512,10 +571,10 @@
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
-		padding: 1.0rem 3.2rem;
+		padding: 1.0rem 2.4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
 
@@ -528,7 +587,7 @@
 		display: block;
 		width: 20%;
 		border: 3px solid #e60000;
-		margin: 10px auto;
+		margin: 2px auto;
 	}
 	.main h3 {
 		color: #000;
@@ -536,6 +595,9 @@
 		font-weight: normal;
 		text-align: center;
 	}
+	.anniu button:nth-child(2){
+		margin-top: 0;
+		}
 }
 
 @media only screen and (min-width: 767px) {
@@ -599,39 +661,47 @@
 	height: 299px;
 	/*background-position: center center;*/
 }
-
+.fixed-bg3 .pic{
+	position: relative;
+}
 .fixed-bg {
 	height: 808px;
 	background-position: center center;
 	z-index: 98;
 }
+
 @media only screen and (min-width: 769px) {
 	.container .po {
-	margin-top: 222px; 
+		margin-top: 222px;
 	}
 }
+
 @media only screen and (max-width: 768px) {
 	.container .po {
-	margin-top: 168px; 
+		margin-top: 168px;
 	}
 }
+
 .container .po {
 	/*margin-top: 168px;*/
 	max-width: 1230px;
 }
+
 @media only screen and (max-width: 768px) {
-	.main p{
+	.main p {
 		margin-top: 30px;
-		}
-		.anniu button{
-			margin-top: 46px;
-			}
+	}
+	.anniu button {
+		margin-top: 46px;
+	}
 }
+
 @media only screen and (max-width: 414px) {
-	.anniu button{
-			margin-top: 20px;
-			}
+	.anniu button {
+		margin-top: 20px;
+	}
 }
+
 .person p {
 	font-size: 25px;
 	margin-top: 25px;
@@ -646,9 +716,22 @@
 
 @media only screen and (min-width: 375px) and (max-width: 413px) {
 	.person p {
-		font-size: 26px;
+		font-size: 20px;
 		margin-top: 25px;
 	}
+}
+
+@media only screen and (max-width: 414px) {
+	.main h3 {
+		font-size: 2.0rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.person p {
+		font-size: 16px;
+	}
+	
 }
 
 @media only screen and (max-width: 991px) {
@@ -705,7 +788,7 @@
 	}
 	
 	.container .po {
-		margin-top: 450px;
+		margin-top: 466px;
 	}
 	
 	.pos {
@@ -814,7 +897,6 @@
 	text-align: center;
 	margin-top: 50px;
 }
-
 .main1 p:nth-child(3) {
 	font-size: 20px;
 	color: #7a7a7a;
@@ -824,15 +906,10 @@
 	color: #FFFFFF;
 	font-size: 3rem;
 }
-
-/*.anniu{
-	max-width: 1020px;
-	margin: 0 auto;
-}*/
 button {
 	outline: none;
 	float: left;
-	margin: 90px 120px;
+	margin: 90px 86px;
 	border: 0;
 	padding: 10px 30px;
 	border-radius: 50px;
@@ -903,9 +980,9 @@ a.hvr-ripple-out:active:before {
 	button {
 		outline: none;
 		float: left;
-		margin: 20px 50px;
+		margin: 20px 22px;
 		border: 0;
-		padding: 10px 30px;
+		padding: 10px 24px;
 		border-radius: 50px;
 	}
 	
@@ -918,14 +995,14 @@ a.hvr-ripple-out:active:before {
 @media only screen and (max-width: 767px) {
 	.main p {
 		font-size: 20px;
-		margin-top: 9px;
+		margin-top: 22px;
 	}
 	
 	.main1 p:nth-child(3) {
 		margin-bottom: 20px;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 	.person {
 		width: 1261px;
 	}
@@ -939,18 +1016,20 @@ a.hvr-ripple-out:active:before {
 	}
 }
 @media only screen and (max-width: 320px) {
-	.tupian img:nth-child(4){
+	.tupian img:nth-child(4) {
 		right: -7px;
-		}
-		.pic{
-			margin-left: 4px;
-			}
+	}
+	
+	.pic {
+		margin-left: 4px;
+	}
 }
 @media only screen and (min-width: 321px) and (max-width: 414px) {
-	.tupian img:nth-child(1){
+	.tupian img:nth-child(1) {
 		left: -9%;
 	}
-	.pic{
-			margin-left: -8px;
-			}
+	
+	.pic {
+		margin-left: -8px;
+	}
 }

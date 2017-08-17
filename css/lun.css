@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+/*h5,*/
 h6 {
 	margin: 0;
 	padding: 0;
@@ -69,12 +69,6 @@ img {
 
 /*nav*/
 
-#nav {
-	background-color: #191919;
-	padding: 10px 20px;
-	width: 100%;
-	/*box-sizing: border-box;*/
-}
 
 #nav div {
 	max-width: 1200px;
@@ -130,14 +124,16 @@ img {
 .swiper-slide {
 	position: relative;
 }
-
-.swiper-slide div p:nth-child(2) {
+@media only screen and (min-width: 1414px) {
+	.swiper-slide div p:nth-child(2) {
 	font-size: 30px;
 }
 .swiper-slide div p:nth-child(3) {
 	font-size: 25px;
 	color: #4a4a4a;
 }
+}
+
 .swiper-slide div a {
 	font-size: 3rem;
 	background-color: #e60000;
@@ -171,19 +167,19 @@ img {
 
 @media screen and (max-width: 1200px) {
 	.swiper-slide div p:nth-child(2) {
-		font-size: 1.5rem;
+		font-size: 23px;
 	}
 	.swiper-slide div p:nth-child(3) {
-		font-size: 1.4rem;
+		font-size: 18px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.swiper-slide div p:nth-child(2) {
-		font-size: 0.5rem;
+		font-size: 25px;
 	}
 	.swiper-slide div p:nth-child(3) {
-		font-size: 0.4rem;
+		font-size: 20px;
 	}
 	.swiper-slide div {
 		background: #FFFFFF;
@@ -213,11 +209,9 @@ img {
 		margin-top: 460px;
 		box-shadow: 1px 2px 8px rgba(13, 5, 9, 0.2);
 	}
-	.main .h3 {
-		margin-top: -120px;
-	}
+	
 }
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 414px) {
 	.main .h3 {
 		margin-top: -96px;
 	}
