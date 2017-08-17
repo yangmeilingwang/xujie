@@ -745,9 +745,9 @@ body {
 
 }
 @media screen and (max-width: 375px) {
-    #footer>div>div {
+    /*#footer>div>div {
         width: 100%;
-    }
+    }*/
     #footer b {
         display: block;
         font-weight: normal;

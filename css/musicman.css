@@ -12,7 +12,10 @@
 		width: 90%;
 	}
 }
-
+@media only screen and (max-width: 768px) {
+	.rightside{
+		display: none;
+}
 /*@media only screen and (min-width: 769px) and (max-width: 1030px) {
 	.swiper-slide{
 		width: 50%;
