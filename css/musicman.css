@@ -19,29 +19,29 @@
 		}
 }*/
 @media only screen and (max-width: 1636px) {
-	.anniu button:nth-child(2){
+	/*.anniu button:nth-child(2){
 	margin-top: 5px;
 	margin-left: 30%;
-	}
-	.anniu button:nth-child(1){
+	}*/
+	/*.anniu button:nth-child(1){
 		margin-left: 37%;
-		}
+		}*/
 }
 @media only screen and (max-width: 414px) {
-	.anniu button:nth-child(2){
+	/*.anniu button:nth-child(2){
 		margin-left: 22%;
 		}
 		.anniu button:nth-child(1){
 		margin-left: 30%;
-		}
+		}*/
 }
 @media only screen and (max-width: 320px) {
-	.anniu button:nth-child(2){
+	/*.anniu button:nth-child(2){
 		margin-left: 20%;
 		}
 		.anniu button:nth-child(1){
 		margin-left: 30%;
-		}
+		}*/
 }
 		
 @media only screen and (min-width: 1201px) and (max-width: 1413px) {
@@ -69,7 +69,7 @@
 .main h3{
     color: #777;
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 3.5rem;
     font-weight: normal;
     }
 @media screen and (max-width: 400px){
@@ -82,60 +82,6 @@
 	font-size: 16px !important;
 }
 }
-@media screen and (max-width: 500px){
-
-.main h3{
-    font-size: 1.8rem;
-}
-}
-@media screen and (max-width: 600px){
-
-.main h3{
-    font-size: 2.2rem;
-    line-height: 3rem;
-}
-}
-@media screen and (max-width: 660px){
-
-.main h3 {
-    font-size: 2.5rem;
-    line-height: 3.6rem;
-}
-}
-@media screen and (max-width: 768px){
-
-.main h3 {
-    color: #000;
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: normal;
-}
-}
-@media screen and (max-width: 960px){
-
-.main h3 {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-}
-}
-@media screen and (max-width: 1200px){
-
-.main h3 {
-    font-size: 3rem;
-    line-height: 3rem;
-}
-}
-@media screen and (max-width: 1500px){
-
-.main h3 {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-}
-}
-
-
-
-
 
 
 .nav_box {
@@ -475,14 +421,14 @@
 		top: 30%;
 		color: white;
 		left: 48%;
-		font-size: 29px;
+		font-size: 32px;
 		transform: translateX(-50%);
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 34%;
+		left: 32%;
 		top: 43%;
-		font-size: 20px;
+		font-size: 25px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
@@ -495,29 +441,30 @@
 		padding: 1.0rem 4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 25px;
 	}
 }
 
-@media only screen and (max-width: 652px) {
+@media only screen and (max-width: 694px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 27%;
+		top: 23%;
 		color: white;
 		left: 48%;
-		font-size: 25px;
+		font-size: 32px;
 		transform: translateX(-50%);
+		text-align: center;
 	}
 	.carousel-inner li p {
 		.position: absolute;
-		left: 34%;
-		top: 42%;
-		font-size: 18px;
+		left: 30%;
+		top: 45%;
+		font-size: 25px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 55%;
+		top: 59%;
 		left: 47%;
 		transform: translateX(-50%);
 		color: white;
@@ -525,127 +472,159 @@
 		padding: 1.0rem 4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 18px;
+		font-size: 25px;
 	}
 }
 
 @media only screen and (max-width: 574px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 28%;
+		top: 22%;
 		color: white;
 		left: 48%;
-		font-size: 22px;
+		font-size: 32px;
 		transform: translateX(-50%);
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 35%;
-		top: 42%;
-		font-size: 16px;
+		left: 27%;
+		top: 45%;
+		font-size: 25px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 55%;
-		left: 47%;
+		top: 59%;
+		left: 48%;
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
 		padding: 1.0rem 4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 25px;
 	}
 }
 
 @media only screen and (max-width: 520px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 26%;
+		top: 18%;
 		color: white;
-		left: 48%;
-		font-size: 18px;
+		left: 52%;
+		font-size: 28px;
 		transform: translateX(-50%);
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 31%;
-		top: 40%;
-		font-size: 16px;
+		left: 28%;
+		top: 47%;
+		font-size: 23px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 55%;
-		left: 47%;
+		top: 60%;
+		left: 51%;
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
 		padding: 1.0rem 4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 23px;
 	}
 }
 
 @media only screen and (max-width: 414px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 27%;
+		top: 18%;
 		color: white;
-		left: 48%;
-		font-size: 15px;
+		left: 50%;
+		font-size: 22px;
 		transform: translateX(-50%);
+		text-align: center;
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 30.6%;
+		left: 28.6%;
 		top: 41%;
-		font-size: 14px;
+		font-size: 20px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
 		top: 55%;
-		left: 47%;
+		left: 50%;
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
 		padding: 1.0rem 4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 20px;
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 22%;
+		top: 18%;
 		color: white;
 		left: 48%;
-		font-size: 15px;
+		font-size: 20px;
 		transform: translateX(-50%);
+		text-align: center;
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 27%;
-		top: 39%;
-		font-size: 15px;
+		left: 27.6%;
+		top: 41%;
+		font-size: 18px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
 		top: 55%;
-		left: 47%;
+		left: 48%;
+		transform: translateX(-50%);
+		color: white;
+		background: #e60000;
+		padding: 1.0rem 4rem;
+		border-radius: 50px;
+		text-decoration: none;
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.carousel-inner li h2 {
+		position: absolute;
+		top: 16%;
+		color: white;
+		left: 51%;
+		font-size: 18px;
+		transform: translateX(-50%);
+		text-align: center;
+	}
+	.carousel-inner li p {
+		position: absolute;
+		left: 27%;
+		top: 39%;
+		font-size: 18px;
+		color: #ffffff;
+	}
+	.carousel-inner li a {
+		position: absolute;
+		top: 55%;
+		left: 51%;
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
 		padding: 1.0rem 2.4rem;
 		border-radius: 50px;
 		text-decoration: none;
-		font-size: 15px;
+		font-size: 18px;
 	}
 }
 
@@ -670,7 +649,14 @@
 		margin-top: 0;
 		}
 }
-
+@media only screen and (min-width: 1448px) {
+	/*.main h3 {
+		position: relative;
+		color: #777777;
+		font-size: 48px;
+		line-height: 55px;
+	}*/
+}
 @media only screen and (min-width: 767px) {
 	h3 i {
 		border-bottom: 7px solid #e60000;
@@ -679,13 +665,10 @@
 		left: 0;
 		top: 55px;
 	}
-	.main h3 {
-		position: relative;
-		color: #777777;
-		font-size: 48px;
-		line-height: 55px;
-	}
+	
 }
+
+
 
 .main p {
 	font-size: 30px;

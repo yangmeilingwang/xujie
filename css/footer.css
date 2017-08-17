@@ -62,7 +62,7 @@ body {
     transform: skewX(-30deg);
     -moz-transform: skewX(-30deg);
     -webkit-transform: skewX(-30deg);
-    font-family: "SF-UI-Text-Regular.otf";
+    /*font-family: "SF-UI-Text-Regular.otf";*/
 
 
 }

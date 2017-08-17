@@ -1,0 +1,134 @@
+
+@media only screen and (min-width: 1371px) and (max-width: 1447px) {
+	.main h3{
+		font-size: 3.7rem;
+	}
+	.main p{
+		font-size: 28px;
+	}
+}
+@media only screen and (min-width: 1275px) and (max-width: 1370px) {
+	.main h3{
+		font-size: 3.5rem;
+	}
+	
+}
+@media only screen and (min-width: 1200px) and (max-width: 1274px) {
+	.main h3{
+		font-size: 3.2rem;
+	}
+	.main p{
+		font-size: 26px;
+	}
+}
+@media only screen and (min-width: 1121px) and (max-width: 1199px) {
+	.main h3{
+		font-size: 3.0rem;
+	}
+	h3 i{
+		width: 82px;
+	}
+	.main p{
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 1047px) and (max-width: 1120px) {
+	.main h3{
+		font-size: 2.8rem;
+	}
+	h3 i{
+		width: 76px;
+	}
+	.main p{
+		font-size: 22px;
+	}
+}
+@media only screen and (min-width: 969px) and (max-width: 1046px) {
+	.main h3{
+		font-size: 2.6rem;
+	}
+	h3 i{
+		width: 70px;
+	}
+	.main p{
+		font-size: 20px;
+	}
+}
+@media only screen and (min-width: 893px) and (max-width: 968px) {
+	.main h3{
+		font-size: 1.8em;
+	}
+	h3 i{
+		width: 64px;
+	}
+	.main p{
+		font-size: 19px;
+	}
+}
+@media only screen and (min-width: 815px) and (max-width: 892px) {
+	.main h3{
+		font-size: 1.8rem;
+	}
+	h3 i{
+		width: 58px;
+	}
+	.main p{
+		font-size: 18px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 814px) {
+	.main h3{
+		font-size: 1.8rem;
+	}
+	h3 i{
+		width: 52px;
+	}
+	.main p{
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 1636px) {
+	button {
+    outline: none;
+    float: left;
+    margin: 54px 80px;
+    border: 0;
+    padding: 10px 30px;
+   
+}
+@media only screen and (max-width: 1597px) {
+	button {
+    outline: none;
+    float: left;
+    margin: 54px 70px;
+    border: 0;
+    padding: 10px 23px;
+   
+   }
+   .bg-red{
+   	 font-size: 2.8rem;
+}
+@media only screen and (max-width: 1434px) {
+	button {
+    outline: none;
+    float: left;
+    margin: 54px 60px;
+    border: 0;
+    padding: 10px 23px;
+   
+   }
+   .bg-red{
+   	 font-size: 2.4rem;
+}
+@media only screen and (max-width: 1261px) {
+	button {
+    outline: none;
+    float: left;
+    margin: 54px 50px;
+    border: 0;
+    padding: 10px 23px;
+   
+   }
+   .bg-red{
+   	 font-size: 2.2rem;
+}
