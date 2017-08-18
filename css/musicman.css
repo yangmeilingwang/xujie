@@ -44,12 +44,13 @@
 		}*/
 }
 		
-@media only screen and (min-width: 1201px) and (max-width: 1413px) {
+@media only screen and (min-width: 1201px) and (max-width: 1454px) {
 	.swiper-slide div p:nth-child(2){
 		font-size: 25px;
 		}
 		.swiper-slide div p:nth-child(3){
 			font-size: 20px;
+			padding-bottom: 10px;
 		}
 		
 }
@@ -69,7 +70,7 @@
 .main h3{
     color: #777;
     font-size: 4rem;
-    line-height: 3.5rem;
+    line-height: 3.0rem;
     font-weight: normal;
     }
 @media screen and (max-width: 400px){
@@ -228,7 +229,7 @@
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	.main h3 {
 		font-family: "SourceHanSansCN-Normal_2";
 		font-size: 36px;
@@ -645,9 +646,9 @@
 		font-weight: normal;
 		text-align: center;
 	}
-	.anniu button:nth-child(2){
+	/*.anniu button:nth-child(2){
 		margin-top: 0;
-		}
+		}*/
 }
 @media only screen and (min-width: 1448px) {
 	/*.main h3 {
@@ -657,7 +658,7 @@
 		line-height: 55px;
 	}*/
 }
-@media only screen and (min-width: 767px) {
+/*@media only screen and (min-width: 767px) {
 	h3 i {
 		border-bottom: 7px solid #e60000;
 		position: absolute;
@@ -666,7 +667,7 @@
 		top: 55px;
 	}
 	
-}
+}*/
 
 
 

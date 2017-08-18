@@ -690,7 +690,7 @@ a.border-red{
         line-height: 2rem;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp:8;
+        -webkit-line-clamp:14;
         overflow: hidden;
 
         height: 192px;
@@ -780,7 +780,7 @@ a.border-red{
 
     }
     a.border-red {
-        width:36%;
+        width:50%;
         font-size: 2.66rem;
         padding: 10px ;
         margin: 50px 0 20px;
@@ -837,9 +837,12 @@ a.border-red{
         height: auto;
     }
     #model2 .model-list div p {
-        line-height: 3rem;
+        line-height: 3.5rem;
         height: auto;
+        padding:0;
+        font-size: 2.33rem;
     }
+
     /*#model1 .model-list*/
     .title{
         position: relative;
@@ -849,7 +852,7 @@ a.border-red{
     .title h2{
         color: #000;
         font-size: 3rem;
-        line-height: 4rem;
+        line-height: 3rem;
         font-weight: normal;
 
     }
@@ -906,11 +909,7 @@ a.border-red{
     #model2 .model-list div:nth-child(2) {
         margin: 0;
     }
-    #model2 .model-list div p {
 
-        padding:0;
-
-    }
     #cooperationCase-md{
         display: none;
     }
@@ -934,22 +933,7 @@ a.border-red{
 
 
 }
-@media screen and (max-width: 660px) {
-    .title h2 {
 
-        font-size: 2.5rem;
-        line-height: 3.6rem;
-
-    }
-    .model-list div h3 {
-
-        font-size: 2.333rem;
-
-    }
-    a.border-red {
-        font-size: 2.1666rem;
-    }
-}
 @media screen and  (max-width: 600px){
     .swiper-slide div p {
         font-size: 1.5rem;
@@ -958,28 +942,17 @@ a.border-red{
         font-size: 2rem;
 
     }
-    .title h2 {
 
-        font-size: 2.2rem;
-        line-height: 3rem;
 
-    }
-    .model-list div h3 {
 
-        font-size: 2rem;
-
-    }
-    a.border-red {
-        font-size: 1.833rem;
-    }
 }
 
 @media screen  and (max-width: 500px){
     .swiper-slide div h2{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
     }
     .swiper-slide div p{
-        font-size: 1.2rem;
+        font-size: 1.366rem;
         margin: 20px 0;
     }
     .swiper-slide div a{
@@ -992,45 +965,26 @@ a.border-red{
         margin: 10px 0;
     }
     a.border-red {
-        width: 36%;
-        font-size: 2.66rem;
-        padding: 10px;
+        font-size: 2rem;
         margin: 40px 0 20px;
     }
-    .title h2{
 
-        font-size: 1.8rem;
 
-    }
-    .model-list div h3 {
 
-        font-size:1.6333rem;
-
-    }
-    a.border-red {
-        font-size: 1.4666rem;
-    }
-    .model-list div h3 {
-
-        font-size: 1.6rem;
-
-    }
-    .model-list div p {
-        font-size: 1.5rem;
-
-    }
     #model1 .model-list div p {
         line-height: 2.25rem;
-        font-size: 1.5rem;
+        font-size: 1.6667rem;
+
+    }
+    #model2 .model-list div p {
+        line-height: 2.25rem;
+        font-size: 1.6667rem;
 
     }
     #model2 .model-list div img{
         max-width: 50%;
     }
-    a.border-red{
-        font-size: 2rem;
 
-    }
     #cooperation-small>div>ul>li{
         margin: 5px 0;
         margin-right: 2%;
@@ -1043,40 +997,26 @@ a.border-red{
     }
 
 }
-@media screen and (max-width: 400px) {
-    .swiper-slide div p {
-        font-size: 1rem;
-
-    }
-
-    .title{
-        margin: 20px 0;
-    }
+@media screen and (max-width: 414px){
     .title h2{
 
-        font-size: 1.3rem;
+        font-size: 2rem;
 
     }
-
     .model-list div h3 {
 
-        font-size: 1.133rem;
+        font-size: 1.633rem;
 
     }
-    .model-list div p {
-        font-size: 1rem;
 
-
-    }
-    #model1 .model-list div p {
-        line-height: 1.5rem;
-        font-size: 1rem;
+}
+@media screen and (max-width: 400px) {
+    .swiper-slide div p {
+        font-size: 1.2rem;
 
     }
-    #model2 .model-list div p {
-        line-height: 1.5rem;
-        font-size: 1rem;
-
+    .title{
+        margin: 20px 0;
     }
     .model-list {
         padding-bottom: 0;
@@ -1084,12 +1024,9 @@ a.border-red{
     #model2 .model-list div {
          margin:  0;
     }
-    #model2 {
 
-         padding-bottom: 0;
-    }
     a.border-red {
-        font-size: 1rem;
+
         margin: 20px 0 ;
     }
     .title .hr {

@@ -30,7 +30,7 @@ body {
 }
 #nav div>ul>li.left{
     /*width: 66%;*/
-    width: 27.96rem;
+    width: 26.96rem;
 }
 #nav div>ul>li.right{
     /*width: 34%;*/
@@ -119,7 +119,7 @@ body {
 
 }
 #footer a{
-    color: #fff;
+    color: rgba(255,255,255,.8);
 }
 #footer>div>div>div.left{
     width: 40%;
