@@ -192,7 +192,11 @@ a.border-red{
     height: 432px;
     text-align: justify;
 }
+.model-list>div:nth-child(2) a.border-red{
 
+    background-color: transparent;
+    color: #e60000;
+}
 .model-list {
     padding-bottom: 40px;
 }
@@ -255,7 +259,7 @@ a.border-red{
 #cooperationCase-md>div>ul{
     width:133.28%;
     margin: 10px auto;
-    height: 49px;
+    height: 51px;
     border-bottom: 1px solid #434343;
 
     /*position: relative;*/
@@ -458,6 +462,11 @@ a.border-red{
         line-height: 3.5rem;
 
     }
+    #cooperationCase-md>div>ul {
+
+        height: 45px;
+
+    }
     #model2 .model-list div p{
         padding:20px ;
 
@@ -557,7 +566,7 @@ a.border-red{
 
     }
     #cooperationCase-md>div>ul{
-        height: 45px;
+        height: 42px;
     }
     #cooperationCase-md>div>ul>li {
 
@@ -636,7 +645,7 @@ a.border-red{
     #cooperationCase-md>div>ul{
         width:133.28%;
         margin: 10px auto;
-        height: 42px;
+        height: 39px;
         border-bottom: 1px solid #434343;
 
         /*position: relative;*/
@@ -706,7 +715,7 @@ a.border-red{
 
     }
     #cooperationCase-md>div>ul {
-        height: 38px;
+        height: 36px;
 
     }
     #cooperationCase-md>div>ul>li {
@@ -848,7 +857,7 @@ a.border-red{
     .title h2{
         color: #000;
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 4rem;
         font-weight: normal;
 
     }
@@ -948,11 +957,11 @@ a.border-red{
         font-size: 2.2rem;
     }
     .swiper-slide div p{
-        font-size: 1.5rem;
+        font-size: 1.366rem;
         margin: 20px 0;
     }
     .swiper-slide div a{
-        font-size: 2rem;
+        font-size: 1.5rem;
         background-color: #e60000;
         border-radius: 100px;
         border: none;
