@@ -192,11 +192,7 @@ a.border-red{
     height: 432px;
     text-align: justify;
 }
-.model-list>div:nth-child(2) a.border-red{
 
-    background-color: transparent;
-    color: #e60000;
-}
 .model-list {
     padding-bottom: 40px;
 }
