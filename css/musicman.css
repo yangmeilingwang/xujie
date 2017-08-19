@@ -13,11 +13,13 @@
 	}
 }
 
+
 /*@media only screen and (min-width: 769px) and (max-width: 1030px) {
 	.swiper-slide{
 		width: 50%;
 		}
 }*/
+
 @media only screen and (max-width: 1636px) {
 	/*.anniu button:nth-child(2){
 	margin-top: 5px;
@@ -27,6 +29,7 @@
 		margin-left: 37%;
 		}*/
 }
+
 @media only screen and (max-width: 414px) {
 	/*.anniu button:nth-child(2){
 		margin-left: 22%;
@@ -35,6 +38,7 @@
 		margin-left: 30%;
 		}*/
 }
+
 @media only screen and (max-width: 320px) {
 	/*.anniu button:nth-child(2){
 		margin-left: 20%;
@@ -43,16 +47,15 @@
 		margin-left: 30%;
 		}*/
 }
-		
+
 @media only screen and (min-width: 1201px) and (max-width: 1454px) {
-	.swiper-slide div p:nth-child(2){
+	.swiper-slide div p:nth-child(2) {
 		font-size: 25px;
-		}
-		.swiper-slide div p:nth-child(3){
-			font-size: 20px;
-			padding-bottom: 10px;
-		}
-		
+	}
+	.swiper-slide div p:nth-child(3) {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -67,23 +70,24 @@
 		height: 20px;
 	}
 }
-.main h3{
-    color: #777;
-    font-size: 4rem;
-    line-height: 3.0rem;
-    font-weight: normal;
-    }
-@media screen and (max-width: 400px){
+
+
 
 .main h3 {
-    font-size: 1.3rem;
-}
-.person p{
-	
-	font-size: 16px !important;
-}
+	color: #777;
+	font-size: 4rem;
+	line-height: 3.0rem;
+	font-weight: normal;
 }
 
+@media screen and (max-width: 400px) {
+	.main h3 {
+		font-size: 1.3rem;
+	}
+	.person p {
+		font-size: 16px !important;
+	}
+}
 
 .nav_box {
 	background: rgba(0, 0, 0, 0.5);
@@ -598,6 +602,7 @@
 		font-size: 18px;
 	}
 }
+
 @media only screen and (max-width: 320px) {
 	.carousel-inner li h2 {
 		position: absolute;
@@ -650,6 +655,7 @@
 		margin-top: 0;
 		}*/
 }
+
 @media only screen and (min-width: 1448px) {
 	/*.main h3 {
 		position: relative;
@@ -658,6 +664,8 @@
 		line-height: 55px;
 	}*/
 }
+
+
 /*@media only screen and (min-width: 767px) {
 	h3 i {
 		border-bottom: 7px solid #e60000;
@@ -668,8 +676,6 @@
 	}
 	
 }*/
-
-
 
 .main p {
 	font-size: 30px;
@@ -716,9 +722,11 @@
 	height: 299px;
 	/*background-position: center center;*/
 }
-.fixed-bg3 .pic{
+
+.fixed-bg3 .pic {
 	position: relative;
 }
+
 .fixed-bg {
 	height: 808px;
 	background-position: center center;
@@ -786,7 +794,6 @@
 	.person p {
 		font-size: 16px;
 	}
-	
 }
 
 @media only screen and (max-width: 991px) {
@@ -961,10 +968,30 @@
 	color: #FFFFFF;
 	font-size: 3rem;
 }
+@media only screen and (max-width: 1821px) {
+	.anniu button {
+	outline: none;
+	float: left;
+	margin: 90px 100px;
+	border: 0;
+	padding: 10px 30px;
+	border-radius: 50px;
+}
+}
+@media only screen and (max-width: 1725px) {
+	.anniu button {
+	outline: none;
+	float: left;
+	margin: 90px 87px;
+	border: 0;
+	padding: 10px 30px;
+	border-radius: 50px;
+}
+}
 button {
 	outline: none;
 	float: left;
-	margin: 90px 86px;
+	margin: 90px 115px;
 	border: 0;
 	padding: 10px 30px;
 	border-radius: 50px;
@@ -1062,6 +1089,7 @@ a.hvr-ripple-out:active:before {
 		width: 1261px;
 	}
 }
+
 /*@media screen and (max-width: 767px) {
 	.main h3 {
 		color: #000;

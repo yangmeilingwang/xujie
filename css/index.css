@@ -145,7 +145,7 @@ a.border-red{
 }
 #model2{
     background: url("../images/bg2.png") no-repeat 100% 50%;
-    padding-bottom:50px ;
+    
 }
 #model3{
     background: url("../images/bg3.png") no-repeat 100% 99%;
@@ -153,7 +153,7 @@ a.border-red{
 
 #model1>div,#model2>div,#cooperation>div,#model3>div{
     width: 62.5%;
-    margin: 20px auto;
+    margin: 0 auto;
 
 }
 /*标题*/
