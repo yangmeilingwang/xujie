@@ -71,8 +71,6 @@
 	}
 }
 
-
-
 .main h3 {
 	color: #777;
 	font-size: 4rem;
@@ -251,7 +249,7 @@
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 27%;
+		left: 34%;
 		top: 43%;
 		font-size: 44px;
 		color: #ffffff;
@@ -453,23 +451,23 @@
 @media only screen and (max-width: 694px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 23%;
+		top: 29%;
 		color: white;
-		left: 48%;
+		left: 36%;
 		font-size: 32px;
-		transform: translateX(-50%);
+		transform: translateX(-29%);
 		text-align: center;
 	}
 	.carousel-inner li p {
 		.position: absolute;
 		left: 30%;
-		top: 45%;
+		top: 43%;
 		font-size: 25px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 59%;
+		top: 57%;
 		left: 47%;
 		transform: translateX(-50%);
 		color: white;
@@ -484,22 +482,22 @@
 @media only screen and (max-width: 574px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 22%;
+		top: 25%;
 		color: white;
-		left: 48%;
+		left: 30%;
 		font-size: 32px;
-		transform: translateX(-50%);
+		transform: translateX(-20%);
 	}
 	.carousel-inner li p {
 		position: absolute;
 		left: 27%;
-		top: 45%;
+		top: 41%;
 		font-size: 25px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 59%;
+		top: 56%;
 		left: 48%;
 		transform: translateX(-50%);
 		color: white;
@@ -514,23 +512,23 @@
 @media only screen and (max-width: 520px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 18%;
+		top: 23%;
 		color: white;
-		left: 52%;
-		font-size: 28px;
-		transform: translateX(-50%);
+		left: 23%;
+		font-size: 25px;
+		transform: translateX(-11%);
 	}
 	.carousel-inner li p {
 		position: absolute;
-		left: 28%;
-		top: 47%;
-		font-size: 23px;
+		left: 26%;
+		top: 40%;
+		font-size: 21px;
 		color: #ffffff;
 	}
 	.carousel-inner li a {
 		position: absolute;
-		top: 60%;
-		left: 51%;
+		top: 55%;
+		left: 49%;
 		transform: translateX(-50%);
 		color: white;
 		background: #e60000;
@@ -544,17 +542,17 @@
 @media only screen and (max-width: 414px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 18%;
+		top: 23%;
 		color: white;
-		left: 50%;
+		left: 34%;
 		font-size: 22px;
-		transform: translateX(-50%);
+		transform: translateX(-21%);
 		text-align: center;
 	}
 	.carousel-inner li p {
 		position: absolute;
 		left: 28.6%;
-		top: 41%;
+		top: 39%;
 		font-size: 20px;
 		color: #ffffff;
 	}
@@ -575,17 +573,17 @@
 @media only screen and (max-width: 375px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 18%;
+		top: 21%;
 		color: white;
-		left: 48%;
+		left: 37%;
 		font-size: 20px;
-		transform: translateX(-50%);
+		transform: translateX(-29%);
 		text-align: center;
 	}
 	.carousel-inner li p {
 		position: absolute;
 		left: 27.6%;
-		top: 41%;
+		top: 39%;
 		font-size: 18px;
 		color: #ffffff;
 	}
@@ -606,17 +604,17 @@
 @media only screen and (max-width: 320px) {
 	.carousel-inner li h2 {
 		position: absolute;
-		top: 16%;
+		top: 19%;
 		color: white;
-		left: 51%;
+		left: 38%;
 		font-size: 18px;
-		transform: translateX(-50%);
+		transform: translateX(-28%);
 		text-align: center;
 	}
 	.carousel-inner li p {
 		position: absolute;
 		left: 27%;
-		top: 39%;
+		top: 36%;
 		font-size: 18px;
 		color: #ffffff;
 	}
@@ -970,23 +968,23 @@
 }
 @media only screen and (max-width: 1821px) {
 	.anniu button {
-	outline: none;
-	float: left;
-	margin: 90px 100px;
-	border: 0;
-	padding: 10px 30px;
-	border-radius: 50px;
-}
+		outline: none;
+		float: left;
+		margin: 90px 100px;
+		border: 0;
+		padding: 10px 30px;
+		border-radius: 50px;
+	}
 }
 @media only screen and (max-width: 1725px) {
 	.anniu button {
-	outline: none;
-	float: left;
-	margin: 90px 87px;
-	border: 0;
-	padding: 10px 30px;
-	border-radius: 50px;
-}
+		outline: none;
+		float: left;
+		margin: 90px 87px;
+		border: 0;
+		padding: 10px 30px;
+		border-radius: 50px;
+	}
 }
 button {
 	outline: none;
